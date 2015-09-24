@@ -1,3 +1,5 @@
+/*  HUFFMAN TREE   */
+
 package huffman;
 
 import java.io.FileInputStream;
@@ -200,7 +202,7 @@ public class HuffmanTree{
 		String temp = "";
 		while(code.length() > 0){
 			System.out.println("BIN : "+code.substring(0, (BIT)));		//DEBUG
-			System.out.println("TAMAÑO : "+code.length());		//DEBUG
+			System.out.println("TAMAÃ‘O : "+code.length());		//DEBUG
 			temp+=String.valueOf(GetLetterFromBinary(code.substring(0, (BIT))));
 			code = code.substring(BIT, code.length());
 		}
