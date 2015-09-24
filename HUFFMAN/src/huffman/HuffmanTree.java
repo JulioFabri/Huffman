@@ -1,5 +1,5 @@
 /*  HUFFMAN TREE   */
-
+//ghghh
 package huffman;
 
 import java.io.FileInputStream;
